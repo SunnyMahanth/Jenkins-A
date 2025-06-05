@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git branch: 'master', url: ''
+                git branch: 'master', url: 'https://github.com/SunnyMahanth/Jenkins-A.git'
             }
         }
         stage('Deploy to Prod Server') {
